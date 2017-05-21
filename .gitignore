@@ -3,6 +3,10 @@
 
 # build files
 build/
+Debug/
+ide_profiles/
+install-mac.sh
+install-ubuntu.sh
 
 # editor config
 .vscode/
