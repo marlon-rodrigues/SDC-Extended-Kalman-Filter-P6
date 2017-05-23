@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		0E7CBF6023274EFA89532BD0 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = FC157CA93387492EA747FBF7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = C07692B8FD504578987BEA23 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				A46E403BE4C3446AB30C1112 /* CMake Rules */,
+				390F070199FD42BE9402EB20 /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -20,13 +20,13 @@
 		};
 		39AEF9A96BB847A6A56BD820 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 89AE15B2FB584D2EB27385E6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 143F8C27CD3240C0B7BE1926 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				C14F6788B4D8412DA89F640E /* CMake Rules */,
+				7CD877A6D6F84C7B8BEF884F /* CMake Rules */,
 			);
 			dependencies = (
-				FD78AAD1739C4C55960978E4 /* PBXTargetDependency */,
-				A3FEF3E877414E9498520950 /* PBXTargetDependency */,
+				1911C5CC9870472790EBC907 /* PBXTargetDependency */,
+				4C6B3762DFE44FB39C5C384D /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,63 +34,63 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0369EB48919A45FDAB1FA04C /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXBuildFile; fileRef = 1A2F4DB13E5845E199231213 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */; };
-		1D38DFC9DA9F4540A696D6A5 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */ = {isa = PBXBuildFile; fileRef = 1359DD2568A54C218F2B5942 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */; };
-		6762E05557734A7A837953D1 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = C5D44F8B4E0C4B4BBD481699 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */; };
-		B76F95F8F7FB467A8D4A4989 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXBuildFile; fileRef = A9D456F7CCAA4F749ABE9F43 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/main.cpp */; };
-		CBE37683EDDF4DC0BA76F488 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */ = {isa = PBXBuildFile; fileRef = 74F94E4E3FB847C1B4977FD8 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */; };
+		08FE0D5BD41D4762AEEC4F22 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */ = {isa = PBXBuildFile; fileRef = 094872749FCC40B9A7A3F29D /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */; };
+		6C864784F64F40219E54FB0E /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXBuildFile; fileRef = B911C5496DE943899EE84E09 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/main.cpp */; };
+		ACC709D579BB43E1AF711048 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BA678C303C6E4F199DFE1B65 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */; };
+		B55D448D865F4CA28403279F /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXBuildFile; fileRef = AEFE20139D50403486608669 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */; };
+		B75C1E34D76A4822822CE2C0 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */ = {isa = PBXBuildFile; fileRef = A4837B773BC34848B359C419 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		1D924E88314B48AE8F7D1626 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		3C6E851A520A4F14A49BE0D7 = {
-			isa = PBXBuildStyle;
-		};
-		990E83559799409EB9902904 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		B78D6B6D5FCA43C6973A8AF2 /* Debug */ = {
+		06B7825802A94DCFA5B7D14E /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		EE63D7969ED04A1887E9AF44 /* MinSizeRel */ = {
+		93314BB0D94E4723A561BBC4 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9412B0301F244E71898CA2F0 = {
+			isa = PBXBuildStyle;
+		};
+		C08D1B24EBF8421D9CE49E8F /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		E5ED6C94CFCC4C9CAB6B762E /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		65E81D7F2FA3429F87B10B45 /* PBXContainerItemProxy */ = {
+		2F318A8C04AB4ECB9018927C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 648F81C3847F4B4EB9A76257 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0E7CBF6023274EFA89532BD0;
 			remoteInfo = ZERO_CHECK;
 		};
-		7B36563D8FF045E8B1156518 /* PBXContainerItemProxy */ = {
+		4808BB2A954F4039BE9F5E33 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 648F81C3847F4B4EB9A76257 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B83D28FB6BF94BDAA8A0D779;
 			remoteInfo = ExtendedKF;
 		};
-		92BE668393DD42F0AE7857E8 /* PBXContainerItemProxy */ = {
+		D9EE7926F2FC476E94D0A84B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 648F81C3847F4B4EB9A76257 /* Project object */;
 			proxyType = 1;
@@ -100,100 +100,100 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1359DD2568A54C218F2B5942 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kalman_filter.cpp; path = src/kalman_filter.cpp; sourceTree = SOURCE_ROOT; };
-		1A2F4DB13E5845E199231213 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
-		1CB24CC4281B46C0AE2321BB /* ExtendedKF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ExtendedKF; sourceTree = BUILT_PRODUCTS_DIR; };
-		68157A5907044BDA8B5F5469 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		74F94E4E3FB847C1B4977FD8 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FusionEKF.cpp; path = src/FusionEKF.cpp; sourceTree = SOURCE_ROOT; };
-		A7416D6ECD8C4B0AAFDE8ACD /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		A9D456F7CCAA4F749ABE9F43 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		C5D44F8B4E0C4B4BBD481699 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		094872749FCC40B9A7A3F29D /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kalman_filter.cpp; path = src/kalman_filter.cpp; sourceTree = SOURCE_ROOT; };
+		5B6446EADE1E40B48356A12B /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		914B69259AE2472BAD7135A3 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A4837B773BC34848B359C419 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FusionEKF.cpp; path = src/FusionEKF.cpp; sourceTree = SOURCE_ROOT; };
+		AEFE20139D50403486608669 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
+		B911C5496DE943899EE84E09 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		BA678C303C6E4F199DFE1B65 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D76D5EBE269B4DFFAF687613 /* ExtendedKF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ExtendedKF; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		032F91BD15024BC6BD378BDC /* ExtendedKF */ = {
+		3B36CF286E7840898D353424 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DB5785B50DBD4AE7B42C1B7A /* Source Files */,
-				C5D44F8B4E0C4B4BBD481699 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
-			);
-			name = ExtendedKF;
-			sourceTree = "<group>";
-		};
-		2DB9EABED5394E8FB7FB0C71 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				45DD32605B8F408286084C85 /* CMake Rules */,
-				68157A5907044BDA8B5F5469 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		366997A73E724CC78D5FAC0F /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		45DD32605B8F408286084C85 /* CMake Rules */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "CMake Rules";
-			sourceTree = "<group>";
-		};
-		8785DE9C60F7419E98D9FA3B /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				032F91BD15024BC6BD378BDC /* ExtendedKF */,
-				2DB9EABED5394E8FB7FB0C71 /* ALL_BUILD */,
-				CA45A53AD17E4EA8ACDE371F /* ZERO_CHECK */,
+				4AC9E749BCE64F94A9F6F758 /* ExtendedKF */,
+				9824947218C84742AF3112DC /* ALL_BUILD */,
+				E22DB84F21904D1B9190D6D0 /* ZERO_CHECK */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
 		};
-		B7BC129BE8AD426CB069453D /* Products */ = {
+		45DD85D3F2CB4CD9A259BBBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1CB24CC4281B46C0AE2321BB /* ExtendedKF */,
+				D76D5EBE269B4DFFAF687613 /* ExtendedKF */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB1F2FAD61AE4F49B0936DDC /* Resources */ = {
+		4AC9E749BCE64F94A9F6F758 /* ExtendedKF */ = {
+			isa = PBXGroup;
+			children = (
+				937BA1B91CEB488FB98DD58E /* Source Files */,
+				BA678C303C6E4F199DFE1B65 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = ExtendedKF;
+			sourceTree = "<group>";
+		};
+		937BA1B91CEB488FB98DD58E /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4837B773BC34848B359C419 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */,
+				094872749FCC40B9A7A3F29D /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */,
+				B911C5496DE943899EE84E09 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/main.cpp */,
+				AEFE20139D50403486608669 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		9824947218C84742AF3112DC /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				B5771496345B4ED7B010BC36 /* CMake Rules */,
+				5B6446EADE1E40B48356A12B /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		A4A0CE556385468B99DED59A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B5771496345B4ED7B010BC36 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E22DB84F21904D1B9190D6D0 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				A4A0CE556385468B99DED59A /* CMake Rules */,
+				914B69259AE2472BAD7135A3 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		E60BA6148AF642C39DEA141B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		CA45A53AD17E4EA8ACDE371F /* ZERO_CHECK */ = {
+		F6D6B6BE77BA4807BFEC16A8 = {
 			isa = PBXGroup;
 			children = (
-				366997A73E724CC78D5FAC0F /* CMake Rules */,
-				A7416D6ECD8C4B0AAFDE8ACD /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
-			);
-			name = ZERO_CHECK;
-			sourceTree = "<group>";
-		};
-		DB5785B50DBD4AE7B42C1B7A /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				74F94E4E3FB847C1B4977FD8 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */,
-				1359DD2568A54C218F2B5942 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */,
-				A9D456F7CCAA4F749ABE9F43 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/main.cpp */,
-				1A2F4DB13E5845E199231213 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		F45BB1AF19E34C0DBFAC7491 = {
-			isa = PBXGroup;
-			children = (
-				8785DE9C60F7419E98D9FA3B /* Sources */,
-				BB1F2FAD61AE4F49B0936DDC /* Resources */,
-				B7BC129BE8AD426CB069453D /* Products */,
+				3B36CF286E7840898D353424 /* Sources */,
+				E60BA6148AF642C39DEA141B /* Resources */,
+				45DD85D3F2CB4CD9A259BBBB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -202,18 +202,18 @@
 /* Begin PBXNativeTarget section */
 		B83D28FB6BF94BDAA8A0D779 /* ExtendedKF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 891C4A6DDE054D2AB846BAB4 /* Build configuration list for PBXNativeTarget "ExtendedKF" */;
+			buildConfigurationList = 8ACB8B3CE8964F848D4B8859 /* Build configuration list for PBXNativeTarget "ExtendedKF" */;
 			buildPhases = (
-				76E7A76ABCA147729966DF4F /* Sources */,
+				9AD8AA662681418985F6D003 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CAB61E92BE144DF69116C03D /* PBXTargetDependency */,
+				15F74A52514F45CA99E9230E /* PBXTargetDependency */,
 			);
 			name = ExtendedKF;
 			productName = ExtendedKF;
-			productReference = 1CB24CC4281B46C0AE2321BB /* ExtendedKF */;
+			productReference = D76D5EBE269B4DFFAF687613 /* ExtendedKF */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -225,18 +225,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 0830;
 			};
-			buildConfigurationList = 9266928C089C4272B233FCE2 /* Build configuration list for PBXProject "ExtendedKF" */;
+			buildConfigurationList = D04A5290F79D4237B6555B5A /* Build configuration list for PBXProject "ExtendedKF" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				B78D6B6D5FCA43C6973A8AF2 /* Debug */,
-				990E83559799409EB9902904 /* Release */,
-				EE63D7969ED04A1887E9AF44 /* MinSizeRel */,
-				1D924E88314B48AE8F7D1626 /* RelWithDebInfo */,
+				06B7825802A94DCFA5B7D14E /* Debug */,
+				93314BB0D94E4723A561BBC4 /* Release */,
+				C08D1B24EBF8421D9CE49E8F /* MinSizeRel */,
+				E5ED6C94CFCC4C9CAB6B762E /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = F45BB1AF19E34C0DBFAC7491;
+			mainGroup = F6D6B6BE77BA4807BFEC16A8;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
@@ -248,29 +248,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A46E403BE4C3446AB30C1112 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project -f /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		C14F6788B4D8412DA89F640E /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project -f /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		E35A9067B5B244778C324208 = {
+		1DED32DAEB8540EC9901DEBE = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -285,7 +263,29 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		FA4A65766D724FF09EEE3EE6 = {
+		390F070199FD42BE9402EB20 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project -f /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		7CD877A6D6F84C7B8BEF884F /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project -f /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		FBB070187B764F838AFC76CA = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -303,39 +303,99 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		76E7A76ABCA147729966DF4F /* Sources */ = {
+		9AD8AA662681418985F6D003 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBE37683EDDF4DC0BA76F488 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */,
-				1D38DFC9DA9F4540A696D6A5 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */,
-				B76F95F8F7FB467A8D4A4989 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/main.cpp */,
-				0369EB48919A45FDAB1FA04C /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */,
+				B75C1E34D76A4822822CE2C0 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */,
+				08FE0D5BD41D4762AEEC4F22 /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */,
+				6C864784F64F40219E54FB0E /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/main.cpp */,
+				B55D448D865F4CA28403279F /* /Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A3FEF3E877414E9498520950 /* PBXTargetDependency */ = {
+		15F74A52514F45CA99E9230E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0E7CBF6023274EFA89532BD0 /* ZERO_CHECK */;
-			targetProxy = 65E81D7F2FA3429F87B10B45 /* PBXContainerItemProxy */;
+			targetProxy = 2F318A8C04AB4ECB9018927C /* PBXContainerItemProxy */;
 		};
-		CAB61E92BE144DF69116C03D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0E7CBF6023274EFA89532BD0 /* ZERO_CHECK */;
-			targetProxy = 92BE668393DD42F0AE7857E8 /* PBXContainerItemProxy */;
-		};
-		FD78AAD1739C4C55960978E4 /* PBXTargetDependency */ = {
+		1911C5CC9870472790EBC907 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B83D28FB6BF94BDAA8A0D779 /* ExtendedKF */;
-			targetProxy = 7B36563D8FF045E8B1156518 /* PBXContainerItemProxy */;
+			targetProxy = 4808BB2A954F4039BE9F5E33 /* PBXContainerItemProxy */;
+		};
+		4C6B3762DFE44FB39C5C384D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E7CBF6023274EFA89532BD0 /* ZERO_CHECK */;
+			targetProxy = D9EE7926F2FC476E94D0A84B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25699D25F70048D3A03B27AB /* RelWithDebInfo */ = {
+		4C5CB2820FFC458BB60FC2D5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/build";
+			};
+			name = RelWithDebInfo;
+		};
+		525F46DE71DA405EA4613355 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5CD7650C3A8449F39E097426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/build";
+			};
+			name = Debug;
+		};
+		67095BF2200448C2A770044F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		76F461C5932F475F86B02636 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -361,121 +421,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		30112CCDAA814CCAB51AB640 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		40C1DAA4D0374E68A33FEDD4 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		547DE384E9CD414887D35140 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/build";
-			};
-			name = Debug;
-		};
-		687E33F241DF41D294301024 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		6EC8654F902142E2BE4FD4CF /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		73623963EF4A45B1AAF92EC2 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		8D6B20418DA24FB58AE34C33 /* Release */ = {
+		803FF6C3DC9B4C3E91764F6B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
@@ -484,140 +430,7 @@ exit 0";
 			};
 			name = Release;
 		};
-		8F05B09E1A1C4547A54564AF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		9029322C0D314E0491B0CBCD /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ExtendedKF;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		97F527DD532A4A0BB7AB558D /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/build";
-			};
-			name = RelWithDebInfo;
-		};
-		B451131D48B64A60B068AA06 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/build";
-			};
-			name = MinSizeRel;
-		};
-		C792302B461E40A699B2B751 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ExtendedKF;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		D5979509142A4A4AB111B7C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		E15A63C67F6C41938ADA3876 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		EF04A0226E064C01834B514D /* Debug */ = {
+		A6DC6F9F9C244CBEAE43DCE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -643,49 +456,236 @@ exit 0";
 			};
 			name = Debug;
 		};
+		B006E59854F946B29EDAA1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		BED152C2243146C4A688A29F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		BFC571E0CA544E5A8FB8318D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		C0CE7E006D84428696F9AD9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		C32B727052A74860B0DD59E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		C6473DE0E357452F9F88FB59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExtendedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		D7724C0D901C421E95FE2CB8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ExtendedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		F57C9DBB8EE54E01A9B28A03 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F9478B8475894854BEAA73D7 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/marlongeraldorodriguesviana/marlon/Courses/SDC/CarND-Extended-Kalman-Filter-Project/build";
+			};
+			name = MinSizeRel;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		891C4A6DDE054D2AB846BAB4 /* Build configuration list for PBXNativeTarget "ExtendedKF" */ = {
+		143F8C27CD3240C0B7BE1926 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF04A0226E064C01834B514D /* Debug */,
-				C792302B461E40A699B2B751 /* Release */,
-				9029322C0D314E0491B0CBCD /* MinSizeRel */,
-				25699D25F70048D3A03B27AB /* RelWithDebInfo */,
+				67095BF2200448C2A770044F /* Debug */,
+				B006E59854F946B29EDAA1D4 /* Release */,
+				525F46DE71DA405EA4613355 /* MinSizeRel */,
+				BED152C2243146C4A688A29F /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		89AE15B2FB584D2EB27385E6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		8ACB8B3CE8964F848D4B8859 /* Build configuration list for PBXNativeTarget "ExtendedKF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				687E33F241DF41D294301024 /* Debug */,
-				8F05B09E1A1C4547A54564AF /* Release */,
-				40C1DAA4D0374E68A33FEDD4 /* MinSizeRel */,
-				73623963EF4A45B1AAF92EC2 /* RelWithDebInfo */,
+				A6DC6F9F9C244CBEAE43DCE3 /* Debug */,
+				C6473DE0E357452F9F88FB59 /* Release */,
+				D7724C0D901C421E95FE2CB8 /* MinSizeRel */,
+				76F461C5932F475F86B02636 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		9266928C089C4272B233FCE2 /* Build configuration list for PBXProject "ExtendedKF" */ = {
+		C07692B8FD504578987BEA23 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				547DE384E9CD414887D35140 /* Debug */,
-				8D6B20418DA24FB58AE34C33 /* Release */,
-				B451131D48B64A60B068AA06 /* MinSizeRel */,
-				97F527DD532A4A0BB7AB558D /* RelWithDebInfo */,
+				C32B727052A74860B0DD59E2 /* Debug */,
+				C0CE7E006D84428696F9AD9E /* Release */,
+				BFC571E0CA544E5A8FB8318D /* MinSizeRel */,
+				F57C9DBB8EE54E01A9B28A03 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		FC157CA93387492EA747FBF7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		D04A5290F79D4237B6555B5A /* Build configuration list for PBXProject "ExtendedKF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5979509142A4A4AB111B7C3 /* Debug */,
-				30112CCDAA814CCAB51AB640 /* Release */,
-				E15A63C67F6C41938ADA3876 /* MinSizeRel */,
-				6EC8654F902142E2BE4FD4CF /* RelWithDebInfo */,
+				5CD7650C3A8449F39E097426 /* Debug */,
+				803FF6C3DC9B4C3E91764F6B /* Release */,
+				F9478B8475894854BEAA73D7 /* MinSizeRel */,
+				4C5CB2820FFC458BB60FC2D5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
