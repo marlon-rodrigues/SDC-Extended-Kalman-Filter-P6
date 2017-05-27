@@ -104,11 +104,7 @@ int main()
     	  gt_values(2) = vx_gt;
     	  gt_values(3) = vy_gt;
     	  ground_truth.push_back(gt_values);
-            
-            if (sensor_type.compare("L") == 0) {
-
-            
-          
+        
           //Call ProcessMeasurment(meas_package) for Kalman filter
     	  fusionEKF.ProcessMeasurement(meas_package);    	  
 
@@ -130,6 +126,9 @@ int main()
 
     	  VectorXd RMSE = tools.CalculateRMSE(estimations, ground_truth);
 
+          //ADDED BY ME
+            cout << "RSME:" << RMSE << endl;
+            
           json msgJson;
           msgJson["estimate_x"] = p_x;
           msgJson["estimate_y"] = p_y;
@@ -140,9 +139,6 @@ int main()
           auto msg = "42[\"estimate_marker\"," + msgJson.dump() + "]";
           // std::cout << msg << std::endl;
           ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
-                
-            }
-	  
         }
       } else {
         
