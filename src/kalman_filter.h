@@ -63,14 +63,14 @@ public:
    * @param z The measurement at k+1
    */
   void UpdateEKF(const Eigen::VectorXd &z);
-  
+
 private:
 
   /**
    * Calculates the new estimation
    * @param y The error measurement
    */
-  void Estimate(const Eigen::VectorXd &y);
+  void Estimate(const Eigen::VectorXd y);
 
 };
 
