@@ -32,7 +32,6 @@ FusionEKF::FusionEKF() {
         0, 0, 0.09;
 
   /**
-  TODO:
     * Finish initializing the FusionEKF.
     * Set the process and measurement noises
   */
@@ -64,12 +63,12 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
   /*****************************************************************************
    *  Initialization
    ****************************************************************************/
-  if (!is_initialized_) {
+  //verify if is_initialized is set to true and if timestamp is equal to zero - used specifically for the "Reset" action 
+  if (!is_initialized_ || measurement_pack.timestamp_ == 1477010443000000) {
     /**
-    TODO:
       * Initialize the state ekf_.x_ with the first measurement.
       * Create the covariance matrix.
-      * Remember: you'll need to convert radar from polar to cartesian coordinates.
+      * Convert radar from polar to cartesian coordinates.
     */
     // first measurement
     cout << "EKF: " << endl;
@@ -85,9 +84,6 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
       /**
       Convert radar from polar to cartesian coordinates and initialize state.
       */
-      double px = 0; //TODO - DO I NEED THIS?
-      double py = 0;
-        
       double rho = measurement_pack.raw_measurements_[0];
       double phi = measurement_pack.raw_measurements_[1];
       double ro_dot = measurement_pack.raw_measurements_[2];
@@ -95,23 +91,11 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
       double cos_phi = cos(phi);
       double sin_phi = sin(phi);
         
-      px = rho * cos_phi;
-      py = rho * sin_phi;
+      double px = rho * cos_phi;
+      double py = rho * sin_phi;
         
       ekf_.x_ << px, py, ro_dot * cos_phi, ro_dot * sin_phi;
-      //ekf_.x_ << px, py, 0, 0;
-        
-      // If initial values are zero they will set to an initial guess
-      // and the uncertainty will be increased.
-      // Initial zeros would cause the algorithm to fail when using only Radar data.
-      /*if(fabs(px) < 0.0001){
-          px = 1;
-          ekf_.P_(0,0) = 1000;
-       }
-       if(fabs(py) < 0.0001){
-          py = 1;
-          ekf_.P_(1,1) = 1000;
-       }*/
+      //ekf_.x_ << px, py, 0, 0; // Could also initialize velocity with zero
     }
     else if (measurement_pack.sensor_type_ == MeasurementPackage::LASER) {
       /**
@@ -135,7 +119,6 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
    ****************************************************************************/
 
   /**
-   TODO:
      * Update the state transition matrix F according to the new elapsed time.
       - Time is measured in seconds.
      * Update the process noise covariance matrix.
@@ -172,7 +155,6 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
    ****************************************************************************/
 
   /**
-   TODO:
      * Use the sensor type to perform the update step.
      * Update the state and covariance matrices.
    */
