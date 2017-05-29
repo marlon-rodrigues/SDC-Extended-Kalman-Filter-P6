@@ -31,7 +31,7 @@ The project files are located in the "src" folder. The files are the following:
 
 *tools.cpp- function to calculate RMSE and the Jacobian matrix.
 
-Simulator Video
+Video with Results
 ---
 A video of the results named "Kalman-Filter-P6.mov" is located in the repository. Lidar measurements are red circles, radar measurements are blue circles with an arrow pointing in the direction of the observed angle, and estimation markers are green triangles. The video shows what the simulator looks like when a c++ script is using its Kalman filter to track the object. The simulator provides the script the measured data (either lidar or radar), and the script feeds back the measured estimation marker, and RMSE values from its Kalman filter.
 
