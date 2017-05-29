@@ -22,9 +22,13 @@ Whereas radar has three measurements (rho, phi, rhodot), lidar has two measureme
 File Structure
 ---
 The project files are located in the "src" folder. The files are the following:
+
 *main.cpp - communicates with the Term 2 Simulator receiving data measurements, calls a function to run the Kalman filter, calls a function to calculate RMSE. Reads in the data and sends a sensor measurement to FusionEKF.cpp.
+
 *FusionEKF.cpp - initializes the filter, calls the predict function, calls the update function. Takes the sensor data and initializes variables and updates variables. The Kalman filter equations are not in this file. FusionEKF.cpp has a variable called ekf_, which is an instance of a KalmanFilter class. The ekf_ will hold the matrix and vector values. You will also use the ekf_ instance to call the predict and update equations.
+
 *kalman_filter.cpp- defines the predict function, the update function for lidar, and the update function for radar. That is where the KalmanFilter class containing the x vector as well as the P, F, Q, H and R matrices is defined. The KalmanFilter class also contains functions for the prediction step as well as the Kalman filter update step (lidar) and extended Kalman filter update step (radar).
+
 *tools.cpp- function to calculate RMSE and the Jacobian matrix.
 
 Simulator Video
